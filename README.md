@@ -15,10 +15,14 @@ WoW Addon to Anchor tooltip to the mouse
 - Save the file as YourFolderName.lua - the name needs to match what you entered in your TOC file above. Don't forget to set file format to "All Files (*.*)"!
 - Done! Restart WoW and your new addon should show in the AddOns list on your character select screen.
 
-TOC file for copy+paste:
+## TOC file for copy+paste:
 Code:
 ```
 ## Interface: 60200
 ## Title: MyAddonTitle
 YourFolderName.lua
+```
+## Get current version number
+```
+/dump select(4, GetBuildInfo())
 ```
